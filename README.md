@@ -1,4 +1,18 @@
-## Hi there 👋
+# Hi, I'm Faheem
+
+Backend Developer | Node.js | Distributed Systems Learner
+
+## 🚀 Tech Stack
+- Node.js
+- Express
+- MongoDB
+- Redis
+- Docker
+
+## 🔥 Current Focus
+- System Design
+- DSA
+- Scalable backend systems
 
 <!--
 **faheem-mullan/faheem-mullan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
