@@ -2,8 +2,6 @@
 
 
 
-Backend Developer
-
 ---
 
 ## Tech Stack
