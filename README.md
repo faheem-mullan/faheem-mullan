@@ -1,25 +1,29 @@
 # Faheem
 
-Backend Engineer | Node.js | Distributed Systems Enthusiast
+
+
+# Faheem
+
+Backend Developer
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-**Languages**
-- JavaScript (ES6+)
-- SQL
+### Languages
+![JavaScript](https://skillicons.dev/icons?i=js)
+![TypeScript](https://skillicons.dev/icons?i=ts)
+![SQL](https://skillicons.dev/icons?i=mysql)
 
-**Backend**
-- Node.js
-- Express
-- REST APIs
+### Backend
+![NodeJS](https://skillicons.dev/icons?i=nodejs)
+![Express](https://skillicons.dev/icons?i=express)
 
-**Databases**
-- MongoDB
-- PostgreSQL
+### Database
+![MongoDB](https://skillicons.dev/icons?i=mongodb)
+![PostgreSQL](https://skillicons.dev/icons?i=postgres)
 
-**Tools**
-- Git
-- Docker
-- Linux
+### Tools
+![Git](https://skillicons.dev/icons?i=git)
+![Docker](https://skillicons.dev/icons?i=docker)
+![Linux](https://skillicons.dev/icons?i=linux)
