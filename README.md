@@ -36,11 +36,3 @@
 
 ---
 
-### 🛰️ TECHNICAL SPECIALIZATIONS
-
-* **Asynchronous Task Offloading:** Implementing **BullMQ** + **Redis** for non-blocking I/O.
-* **Schema Reliability:** Strict **Zod** validation and **TypeScript** type-safety.
-* **Database Scaling:** Optimized **PostgreSQL** indexing and **Prisma** ORM integration.
-* **Observability:** Structured JSON logging with **Pino** for production-grade debugging.
-
----
