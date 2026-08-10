@@ -13,7 +13,7 @@
 
 ### 🗄️ DATA PERSISTENCE & CACHING
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,prisma" />
+  <img src="https://skillicons.dev/icons?i=postgres,redis,prisma" />
 </p>
 
 ### 🚀 INFRASTRUCTURE, TESTING & OBSERVABILITY
