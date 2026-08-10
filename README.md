@@ -1,6 +1,6 @@
 ### 🛡️ THE CORE ENGINE
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,cpp,py" />
+  <img src="https://skillicons.dev/icons?i=js,nodejs,py" />
 </p>
 
 ### ⚙️ BACKEND ARCHITECTURE & SCALABILITY
