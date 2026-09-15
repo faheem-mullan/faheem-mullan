@@ -1,10 +1,9 @@
 <div align="left">
 
+  <!-- Live Animated Banner Header -->
   <p align="center">
-    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZhcGRoam16eGpsMHVrdzJ2Y3Z0YWtrY3Z3OWVxeTFmdDVvbmFndCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9sv3y0N4qxY/giphy.gif" width="100%" height="180px" style="object-fit: cover; border-radius: 6px;" alt="Pixel Header GIF" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f2937&height=200&section=header&text=BACKEND%20ENGINEER&fontSize=45&fontColor=ffffff&fontAlignY=40&animation=fadeIn" width="100%" alt="Header" />
   </p>
-
-  <h1 align="center">BACKEND ENGINEER</h1>
 
   <p align="center">
     <a href="https://git.io/typing-svg">
@@ -14,6 +13,7 @@
 
   <br />
 
+  <!-- Icons Grid -->
   <h3>🛠️ STACK & TOOLS</h3>
   <p>
     <a href="https://skillicons.dev">
@@ -23,6 +23,7 @@
 
   <br />
 
+  <!-- Architecture Matrix -->
   <h3>⚡ SYSTEM ARCHITECTURE</h3>
 
   <table>
@@ -46,6 +47,7 @@
 
   <br />
 
+  <!-- Hard Engineering Patterns -->
   <h3>🛡️ PRODUCTION PATTERNS</h3>
   <ul>
     <li><b>SQL Injection Immunity:</b> Zero string concatenation in database queries; strict parameterized input binding (<code>$1, $2</code>) across all pool operations.</li>
