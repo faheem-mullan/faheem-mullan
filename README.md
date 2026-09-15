@@ -1,63 +1,72 @@
 <div align="left">
 
-  <!-- Pixel Runner Animation & Headline -->
+  <!-- Anime Coding Header GIF -->
   <p align="center">
-    <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000" alt="Runner GIF" />
+    <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="600" alt="Anime Coding GIF" />
   </p>
 
-  <h2 align="center">🏃‍♂️ Running through the Backend Pipeline...</h2>
+  <h1 align="center">⚡ BACKEND & GAME ENGINE ARCHITECT</h1>
 
   <p align="center">
-    <i>Fumbling, building, debugging, and actually understanding what happens under the hood.</i>
+    <b>Crafting secure REST APIs & 3D interactive systems from scratch.</b>
   </p>
 
   <br />
 
-  <!-- Core Stack Icons -->
-  <h3 align="left">🕹️ THE ACTIVE INVENTORY</h3>
-  <p align="left">
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=js,nodejs,express,postgres,cs,unity,git,github,postman&theme=dark&perline=9" alt="Tech Stack" />
+  <!-- Animated Terminal Typing Banner -->
+  <p align="center">
+    <a href="https://git.io/typing-svg">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=00FF66&center=true&vcenter=true&width=600&lines=System.Init()%3A+Node.js+%7C+Express.js+%7C+PostgreSQL;Security%3A+bcrypt+%7C+JWT+%7C+Parameterized+SQL;GameDev%3A+C%23+%7C+Unity+3D+Physics+%26+Controllers;Validation%3A+Zod+%7C+Schema+Constraints" alt="Typing Banner" />
     </a>
   </p>
 
   <br />
 
-  <!-- The Real Talk Matrix -->
-  <h3 align="left">⚡ WHAT I'M ACTUALLY WRITING & USING</h3>
+  <!-- Tech Arsenal (Icons Grid) -->
+  <h3>🗡️ THE ARSENAL</h3>
+  <p>
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=js,nodejs,express,postgres,cs,unity,postman,git,github&theme=dark&perline=9" alt="Tech Stack" />
+    </a>
+  </p>
+
+  <br />
+
+  <!-- System Specifications & Capabilities -->
+  <h3>⚙️ SYSTEM CAPABILITIES & ARCHITECTURE</h3>
 
   <table>
     <tr>
-      <td width="30%"><b>Backend Core</b></td>
-      <td>Node.js, Express.js, Custom Middleware, REST APIs</td>
+      <td width="30%"><b>Core Stack</b></td>
+      <td>JavaScript (ES6+), Node.js, Express.js REST APIs</td>
     </tr>
     <tr>
-      <td><b>Data & Databases</b></td>
-      <td>PostgreSQL, Raw SQL Queries, <code>pg.Pool</code> Connection Pooling, DBeaver</td>
+      <td><b>Database Engine</b></td>
+      <td>PostgreSQL, Connection Pooling (<code>pg.Pool</code>), DBeaver</td>
     </tr>
     <tr>
-      <td><b>Security & Guardrails</b></td>
-      <td><code>bcrypt</code> Hashing, Parameterized Queries (Anti-SQLi), JWTs, Zod Payload Validation</td>
+      <td><b>Security & Auth</b></td>
+      <td><code>bcrypt</code> Hashing, Parameterized Queries (Anti-SQLi), JWT Tokens, Zod Schema Validation</td>
     </tr>
     <tr>
-      <td><b>Game Dev / C#</b></td>
-      <td>Unity 3D, Rigidbody Physics, Player Controllers & Movement Systems</td>
+      <td><b>Game Engine</b></td>
+      <td>C#, Unity 3D, Rigidbody Physics, Custom Player Movement Controllers</td>
     </tr>
     <tr>
-      <td><b>Tools & Workflow</b></td>
-      <td>Postman (API Testing), Git & GitHub, Terminal / Command Line</td>
+      <td><b>Tooling</b></td>
+      <td>Postman API Testing, Git Version Control, GitHub Workflows</td>
     </tr>
   </table>
 
   <br />
 
-  <!-- Practical Concepts Explored -->
-  <h3 align="left">🧠 CONCEPTS & LESSONS LEARNED (THE HARD WAY)</h3>
+  <!-- Hard Engineering Patterns (No soft language) -->
+  <h3>🛡️ HARDENED PRODUCTION PATTERNS</h3>
   <ul>
-    <li><b>SQL Injection Defense:</b> Why string concatenation in SQL is a nightmare, and how <code>$1, $2</code> parameter binding stops it.</li>
-    <li><b>Database Integrity:</b> Enforcing rules at the DB level (<code>UNIQUE</code>, <code>CHECK</code>) and catching Postgres error codes like <code>23505</code> gracefully.</li>
-    <li><b>Authentication:</b> Scrambling passwords asynchronously with <code>bcrypt</code> salt rounds so plain text never touches the database.</li>
-    <li><b>Concurrency & Race Conditions:</b> Learning how databases handle simultaneous reads and writes without destroying state.</li>
+    <li><b>SQL Injection Prevention:</b> Strict parameterized query binding (<code>$1, $2</code>) across all database pool operations.</li>
+    <li><b>Database Integrity:</b> Schema-level constraints (<code>UNIQUE</code>, <code>CHECK</code>) with explicit PostgreSQL error state handling (e.g., code <code>23505</code>).</li>
+    <li><b>Cryptographic Hashing:</b> Asynchronous <code>bcrypt</code> salt generation ensuring zero plain-text password persistence.</li>
+    <li><b>Concurrency Awareness:</b> Managing simultaneous database read/write operations and connection pool bottlenecks.</li>
   </ul>
 
 </div>
