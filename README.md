@@ -1,36 +1,69 @@
 <div align="left">
-  <!-- Typing Banner with proper dimensions -->
+
+  <!-- Minimalist High-Contrast Header -->
+  <code><b>SYSTEM // BACKEND_ENGINE</b></code>
+  <br /><br />
+
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=61AFEF&width=450&lines=Backend+Engine+in+the+Making...;Node.js+%7C+Express.js+%7C+PostgreSQL;Building+Production-Grade+APIs;Focusing+on+Security+%26+Performance" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=00FF66&width=500&lines=%3E+INITIALIZING_CORE_SERVICES...;%3E+STACK%3A+NODE.JS+%7C+EXPRESS+%7C+POSTGRES;%3E+FOCUS%3A+SECURITY+%7C+CONCURRENCY+%7C+APIS" alt="Typing SVG" />
   </a>
 
   <br /><br />
+  <hr />
 
-  <!-- Core Stack Icons (Left Aligned) -->
-  <h3>🛡️ Core Stack & Tooling</h3>
-  <p>
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=js,nodejs,express,postgres,postman,git,github&theme=dark&perline=7" alt="Tech Stack Icons" />
-    </a>
-  </p>
+  <!-- Architecture & Infrastructure Matrix -->
+  <h3>⚡ SYSTEM ARCHITECTURE & ENGINE STACK</h3>
+
+  <table>
+    <tr>
+      <td width="30%"><b>Runtime & Server</b></td>
+      <td><code>Node.js (ES6+)</code>, <code>Express.js</code></td>
+    </tr>
+    <tr>
+      <td><b>Data & Persistence</b></td>
+      <td><code>PostgreSQL</code>, <code>pg.Pool</code>, <code>Raw SQL</code></td>
+    </tr>
+    <tr>
+      <td><b>Security & Auth</b></td>
+      <td><code>bcrypt</code>, <code>Parameterized Queries</code>, <code>RBAC</code></td>
+    </tr>
+    <tr>
+      <td><b>Tooling & Operations</b></td>
+      <td><code>DBeaver</code>, <code>Postman</code>, <code>Git</code>, <code>Linux / CLI</code></td>
+    </tr>
+  </table>
 
   <br />
 
-  <!-- Technical Focus Badges -->
-  <h3>⚡ Engineering Focus</h3>
-  <p>
-    <img src="https://img.shields.io/badge/Security-bcrypt%20%7C%20Parameterized%20SQL-blue?style=flat-square" />
-    <img src="https://img.shields.io/badge/Tooling-DBeaver%20%7C%20Postman-orange?style=flat-square" />
-    <img src="https://img.shields.io/badge/Architecture-Express%20REST%20APIs-green?style=flat-square" />
-  </p>
+  <!-- Production Standards / Proof of Engineering -->
+  <h3>🛡️ HARDENED PRODUCTION PATTERNS</h3>
 
-  <br />
-
-  <!-- Clean, Scannable Capabilities -->
-  <h3>🧱 Core Capabilities</h3>
   <ul>
-    <li><b>Modular API Architecture:</b> Controller-Route-Config design pattern built with Express.js and Node.js.</li>
-    <li><b>Database & Concurrency:</b> Managing connection pools via <code>pg.Pool</code>, handling transaction logic, custom check constraints, and handling error code <code>23505</code>.</li>
-    <li><b>Authentication & Security:</b> Password hashing with <code>bcrypt</code>, input validation, and SQL injection prevention via parameterized queries.</li>
+    <li>
+      <b>SQL Injection Immunity:</b> Zero string concatenation in database queries; strict parameterized input binding (<code>$1, $2</code>) across all pool operations.
+    </li>
+    <li>
+      <b>Database Constraint Enforcement:</b> Schema-level data integrity using <code>UNIQUE</code>, <code>CHECK</code>, and <code>NOT NULL</code> constraints; explicit handling of PostgreSQL error state codes (e.g., <code>23505</code> for unique constraint breaches).
+    </li>
+    <li>
+      <b>Cryptographic Safety:</b> Password hashing using <code>bcrypt</code> with explicit salt-round calibration (10 rounds) prior to database insertion.
+    </li>
+    <li>
+      <b>Modular Layering:</b> Decoupled system architecture isolating Routing, Business Logic (Controllers), and Data Access layers to maximize testability.
+    </li>
   </ul>
+
+  <br />
+
+  <!-- Monospaced Terminal Output Box for Current Focus -->
+  <h3>📡 CURRENT BUILD MATRIX</h3>
+
+  <pre>
+[✓] Hotel Reservation Engine API ........... [ONLINE]
+├── [✓] Schema Design & Migration Scripts ... [COMPLETED]
+├── [✓] User Registration & Password Hash ... [COMPLETED]
+├── [⏱] JWT Authentication & Cookie Middleware [IN PROGRESS]
+└── [  ] Role-Based Access Control (RBAC) ... [QUEUED]
+  </pre>
+
 </div>
