@@ -1,23 +1,23 @@
 <div align="left">
 
-  <!-- Sleek Matrix Banner -->
+  <!-- Vinland Saga / Sword Anime Banner GIF -->
   <p align="center">
-    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWp3Z21vd3RvaXpxZHdrNG1kOTBuaXB2aDRqdnNjc2xudmxrdnA2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9sv3y0N4qxY/giphy.gif" width="100%" height="160px" style="object-fit: cover;" alt="Matrix Terminal Header" />
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZhcGRoam16eGpsMHVrdzJ2Y3Z0YWtrY3Z3OWVxeTFmdDVvbmFndCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A38Ymg50I6M1KA3WYB/giphy.gif" width="100%" height="220px" style="object-fit: cover; border-radius: 6px;" alt="Vinland Saga Thorfinn GIF" />
   </p>
 
-  <!-- Title & Terminal Animation -->
+  <!-- Title & Clean Monospace Tagline -->
   <h1 align="center">SOFTWARE & BACKEND ENGINEER</h1>
 
   <p align="center">
     <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=00FF66&center=true&vcenter=true&width=600&lines=Building+Production-Grade+REST+APIs;Node.js+%7C+Express.js+%7C+PostgreSQL;Focusing+on+API+Security%2C+Data+Integrity+%26+Concurrency" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=61AFEF&center=true&vcenter=true&width=600&lines=Forging+Production-Grade+APIs;Node.js+%7C+Express.js+%7C+PostgreSQL;Relentless+Focus+on+Security%2C+Data+%26+Performance" alt="Typing SVG" />
     </a>
   </p>
 
   <br />
 
-  <!-- Core Stack Icons Grid -->
-  <h3>🛠️ TECH STACK & TOOLING</h3>
+  <!-- Clean Dark Icons Grid -->
+  <h3>🗡️ CORE STACK & ARSENAL</h3>
   <p>
     <a href="https://skillicons.dev">
       <img src="https://skillicons.dev/icons?i=js,nodejs,express,postgres,postman,git,github&theme=dark&perline=7" alt="Tech Stack Icons" />
@@ -26,8 +26,8 @@
 
   <br />
 
-  <!-- Core Architecture Table -->
-  <h3>⚡ SYSTEM ARCHITECTURE & PERSISTENCE</h3>
+  <!-- Architecture Matrix -->
+  <h3>⚡ SYSTEM ARCHITECTURE & ENGINE</h3>
 
   <table>
     <tr>
@@ -35,28 +35,28 @@
       <td>JavaScript (ES6+), Node.js, Express.js REST APIs</td>
     </tr>
     <tr>
-      <td><b>Database & Persistence</b></td>
+      <td><b>Data & Persistence</b></td>
       <td>PostgreSQL, Connection Pooling (<code>pg.Pool</code>), DBeaver</td>
     </tr>
     <tr>
-      <td><b>Security & Validation</b></td>
-      <td><code>bcrypt</code> Hashing, Parameterized SQL (Anti-SQLi), JWT, Zod Payload Validation</td>
+      <td><b>Security & Auth</b></td>
+      <td><code>bcrypt</code> Hashing, Parameterized SQL (Anti-SQLi), JWT, Zod Validation</td>
     </tr>
     <tr>
-      <td><b>Workflow & Tools</b></td>
-      <td>Postman (API Testing), Git Version Control, GitHub</td>
+      <td><b>Tooling & Operations</b></td>
+      <td>Postman (API Testing), Git Version Control, GitHub Workflows</td>
     </tr>
   </table>
 
   <br />
 
-  <!-- Production Capabilities -->
+  <!-- Hard Engineering Patterns -->
   <h3>🛡️ HARDENED PRODUCTION PATTERNS</h3>
   <ul>
-    <li><b>SQL Injection Defense:</b> Zero string concatenation in database queries; strict parameterized input binding (<code>$1, $2</code>) across all pool operations.</li>
-    <li><b>Database Constraint Enforcement:</b> Schema-level data integrity using <code>UNIQUE</code>, <code>CHECK</code>, and <code>NOT NULL</code> constraints with explicit PostgreSQL error handling (e.g., code <code>23505</code>).</li>
-    <li><b>Cryptographic Safety:</b> Asynchronous password hashing using <code>bcrypt</code> salt calibration prior to database persistence.</li>
-    <li><b>API Architecture:</b> Modular separation of concerns isolating Routing, Controllers, and Data Access layers.</li>
+    <li><b>SQL Injection Immunity:</b> Zero string concatenation in database queries; strict parameterized input binding (<code>$1, $2</code>) across all pool operations.</li>
+    <li><b>Database Integrity:</b> Schema-level constraints (<code>UNIQUE</code>, <code>CHECK</code>) with explicit PostgreSQL error state handling (e.g., code <code>23505</code>).</li>
+    <li><b>Cryptographic Hashing:</b> Asynchronous <code>bcrypt</code> salt generation ensuring zero plain-text password persistence.</li>
+    <li><b>Modular Layering:</b> Decoupled system architecture isolating Routing, Business Logic (Controllers), and Data Access layers.</li>
   </ul>
 
 </div>
