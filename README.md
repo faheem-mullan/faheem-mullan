@@ -11,59 +11,44 @@
   <br /><br />
   <hr />
 
-  <!-- Architecture & Infrastructure Matrix -->
+  <!-- System Architecture Matrix with Visual Logos -->
   <h3>⚡ SYSTEM ARCHITECTURE & ENGINE STACK</h3>
 
   <table>
     <tr>
       <td width="30%"><b>Runtime & Server</b></td>
-      <td><code>Node.js (ES6+)</code>, <code>Express.js</code></td>
+      <td>
+        <img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
+        <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+      </td>
     </tr>
     <tr>
       <td><b>Data & Persistence</b></td>
-      <td><code>PostgreSQL</code>, <code>pg.Pool</code>, <code>Raw SQL</code></td>
+      <td>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Raw_SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+      </td>
     </tr>
     <tr>
       <td><b>Security & Auth</b></td>
-      <td><code>bcrypt</code>, <code>Parameterized Queries</code>, <code>RBAC</code></td>
+      <td>
+        <img src="https://img.shields.io/badge/bcrypt-Password_Hashing-blue?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Security-Parameterized_Queries-green?style=for-the-badge" />
+      </td>
     </tr>
     <tr>
       <td><b>Tooling & Operations</b></td>
-      <td><code>DBeaver</code>, <code>Postman</code>, <code>Git</code>, <code>Linux / CLI</code></td>
+      <td>
+        <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+        <img src="https://img.shields.io/badge/DBeaver-005151?style=for-the-badge&logo=dbeaver&logoColor=white" />
+        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+      </td>
     </tr>
   </table>
 
   <br />
 
-  <!-- Production Standards / Proof of Engineering -->
-  <h3>🛡️ HARDENED PRODUCTION PATTERNS</h3>
-
-  <ul>
-    <li>
-      <b>SQL Injection Immunity:</b> Zero string concatenation in database queries; strict parameterized input binding (<code>$1, $2</code>) across all pool operations.
-    </li>
-    <li>
-      <b>Database Constraint Enforcement:</b> Schema-level data integrity using <code>UNIQUE</code>, <code>CHECK</code>, and <code>NOT NULL</code> constraints; explicit handling of PostgreSQL error state codes (e.g., <code>23505</code> for unique constraint breaches).
-    </li>
-    <li>
-      <b>Cryptographic Safety:</b> Password hashing using <code>bcrypt</code> with explicit salt-round calibration (10 rounds) prior to database insertion.
-    </li>
-    <li>
-      <b>Modular Layering:</b> Decoupled system architecture isolating Routing, Business Logic (Controllers), and Data Access layers to maximize testability.
-    </li>
-  </ul>
-
-  <br />
-
-  <!-- Monospaced Terminal Output Box for Current Focus -->
-  <h3>📡 CURRENT BUILD MATRIX</h3>
-
-  <pre>
-[✓] Hotel Reservation Engine API ........... [ONLINE]
-├── [✓] Schema Design & Migration Scripts ... [COMPLETED]
-├── [✓] User Registration & Password Hash ... [COMPLETED]
-├── [⏱] JWT Authentication & Cookie Middleware [IN PROGRESS]
-└── [  ] Role-Based Access Control (RBAC) ... [QUEUED]
-  </pre>
+  
 
 </div>
