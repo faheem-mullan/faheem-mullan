@@ -49,6 +49,15 @@
 
   <br />
 
-  
+  <!-- Terminal Output Box for Current Focus -->
+  <h3>📡 CURRENT BUILD MATRIX</h3>
+
+  <pre>
+[✓] Hotel Reservation Engine API ........... [ONLINE]
+├── [✓] Schema Design & Migration Scripts ... [COMPLETED]
+├── [✓] User Registration & Password Hash ... [COMPLETED]
+├── [⏱] JWT Authentication & Middleware .... [IN PROGRESS]
+└── [  ] Role-Based Access Control (RBAC) ... [QUEUED]
+  </pre>
 
 </div>
