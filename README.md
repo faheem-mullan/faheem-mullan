@@ -1,36 +1,36 @@
-<!-- animated typing title -->
-<div align="center">
+<div align="left">
+  <!-- Typing Banner with proper dimensions -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=61AFEF&center=true&vcenter=true&width=500&lines=Backend+Engine+in+the+Making...;Node.js+%7C+Express.js+%7C+PostgreSQL;Building+Production-Grade+APIs;Focusing+on+Security+%26+Performance" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=61AFEF&width=450&lines=Backend+Engine+in+the+Making...;Node.js+%7C+Express.js+%7C+PostgreSQL;Building+Production-Grade+APIs;Focusing+on+Security+%26+Performance" alt="Typing SVG" />
   </a>
+
+  <br /><br />
+
+  <!-- Core Stack Icons (Left Aligned) -->
+  <h3>🛡️ Core Stack & Tooling</h3>
+  <p>
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=js,nodejs,express,postgres,postman,git,github&theme=dark&perline=7" alt="Tech Stack Icons" />
+    </a>
+  </p>
+
+  <br />
+
+  <!-- Technical Focus Badges -->
+  <h3>⚡ Engineering Focus</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Security-bcrypt%20%7C%20Parameterized%20SQL-blue?style=flat-square" />
+    <img src="https://img.shields.io/badge/Tooling-DBeaver%20%7C%20Postman-orange?style=flat-square" />
+    <img src="https://img.shields.io/badge/Architecture-Express%20REST%20APIs-green?style=flat-square" />
+  </p>
+
+  <br />
+
+  <!-- Clean, Scannable Capabilities -->
+  <h3>🧱 Core Capabilities</h3>
+  <ul>
+    <li><b>Modular API Architecture:</b> Controller-Route-Config design pattern built with Express.js and Node.js.</li>
+    <li><b>Database & Concurrency:</b> Managing connection pools via <code>pg.Pool</code>, handling transaction logic, custom check constraints, and handling error code <code>23505</code>.</li>
+    <li><b>Authentication & Security:</b> Password hashing with <code>bcrypt</code>, input validation, and SQL injection prevention via parameterized queries.</li>
+  </ul>
 </div>
-
-<br />
-
-<!-- core tech grid -->
-<h3 align="center">🛡️ CORE STACK & TOOLING</h3>
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,nodejs,express,postgres,postman,git,github&theme=dark&perline=7" alt="Tech Stack Icons" />
-  </a>
-</p>
-
-<br />
-
-<!-- custom styled badges for concepts and tools -->
-<h3 align="center">⚡ ARCHITECTURE & SECURITY PATTERNS</h3>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/bcrypt-Password_Hashing-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/PostgreSQL-Parameterized_Queries-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/DBeaver-Database_Management-005151?style=for-the-badge&logo=dbeaver&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-API_Testing-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-</p>
-
-<br />
-
-### 🧱 CORE ENGINEERING CAPABILITIES
-* **Modular API Architecture:** Controller-Route-Config patterns built with Express.js and Node.js.
-* **Database & Concurrency Handling:** Managing connection pools with `pg.Pool`, transaction logic, custom check constraints, and resolving unique constraint violations (`23505`).
-* **Authentication Security:** Cryptographic password hashing (`bcrypt`), payload validation, and SQL injection defenses.
